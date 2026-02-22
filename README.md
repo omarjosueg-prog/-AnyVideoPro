@@ -8,6 +8,18 @@
 * **⚡ Multihilo (Threading):** La interfaz nunca se congela, permitiéndote seguir usando el programa mientras se procesan las descargas.
 * **🎵 Calidad Premium:** Obtén la mejor calidad de video (MP4) o extrae el audio con máxima fidelidad (MP3).
 * **🌙 Interfaz Moderna:** Diseño oscuro (Dark Mode) profesional y minimalista.
+* ## 📂 ¿Dónde se guardan mis descargas?
+
+Para que sea fácil de encontrar, **AnyVideoPro** utiliza la carpeta estándar de Windows. Tus archivos aparecerán automáticamente en:
+
+📍 `C:\Usuarios\[TuUsuario]\Descargas\AnyVideoPro_Files`
+
+### 🗂️ Organización Inteligente
+El programa mantiene tu carpeta limpia creando subcarpetas automáticamente:
+* **Videos sueltos:** Se guardan en una carpeta con el nombre del **Canal/Autor** (ej. `.../Downloads/AnyVideoPro_Files/YouTubeChannel/video.mp4`).
+* **Listas de reproducción:** Se guardan en una carpeta con el nombre de la **Playlist**.
+
+> **Tip:** Al finalizar cada descarga, AnyVideoPro abrirá automáticamente esta carpeta por ti para que no tengas que buscarla manualmente.
 
 ## 🛠️ Requisitos
 Para ejecutar este proyecto necesitas tener instalado Python y la librería `yt-dlp`.

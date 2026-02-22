@@ -1,21 +1,26 @@
-# 🚀 AnyVideoPro
+# 🚀 AnyVideoPro - Universal Downloader
 
-**AnyVideoPro** es un descargador multimedia universal potente, rápido e intuitivo. Diseñado para descargar videos y audios de más de 1000 plataformas (YouTube, TikTok, Instagram, etc.) con organización automática.
+AnyVideoPro es una herramienta potente y minimalista para descargar contenido multimedia de casi cualquier plataforma (YouTube, TikTok, Instagram, etc.). Su principal ventaja es la **organización automática**.
 
-## ✨ Características Principales
-* **🌐 Soporte Universal:** Compatible con YouTube, Instagram, Twitter, Twitch y más.
-* **📂 Organización Inteligente:** Crea carpetas automáticamente por **Nombre del Canal** o **Lista de Reproducción**.
-* **🎵 Calidad Premium:** Descarga en el mejor formato disponible (MP4 para video o MP3 para audio).
-* **⚡ Interfaz Moderna:** Tema oscuro (Dark Mode) minimalista y fácil de usar.
-* **📂 Acceso Directo:** El programa abre la carpeta de descargas automáticamente al finalizar.
+## 📂 Ubicación de las Descargas
 
-## 📂 ¿Dónde se guardan mis descargas?
-Para tu comodidad, los archivos se guardan en la carpeta oficial de tu sistema:
-📍 `C:\Usuarios\[TuUsuario]\Downloads\AnyVideoPro_Files`
+Para evitar confusiones, el programa utiliza la carpeta estándar de Windows. No necesitas buscar rutas extrañas:
 
-## 🛠️ Requisitos e Instalación
-Si quieres ejecutar el código fuente (`AnyVidePro.py`), necesitas Python y la librería `yt-dlp`:
+📍 **Ruta:** `Este Equipo > Descargas > AnyVideoPro_Files`
 
-1. **Instalar la librería:**
+*El programa abrirá esta carpeta automáticamente al finalizar cada descarga.*
+
+## ✨ Características
+- **Organización Automática:** Crea carpetas basadas en el nombre del canal o la lista de reproducción.
+- **Formatos:** Soporte para Video (MP4) y Audio (MP3).
+- **Interfaz Dark:** Diseño elegante en modo oscuro para evitar la fatiga visual.
+- **Multi-plataforma:** Gracias a `yt-dlp`, soporta cientos de sitios web.
+
+## 🛠️ Instalación (Para Desarrolladores)
+
+Si deseas ejecutar el código fuente:
+
+1. Clona el repositorio.
+2. Instala las dependencias:
    ```bash
    pip install yt-dlp

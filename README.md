@@ -1,29 +1,21 @@
 # 🚀 AnyVideoPro
 
-**AnyVideoPro** es un descargador multimedia universal diseñado para ser potente, rápido e intuitivo. Olvídate de las páginas web llenas de publicidad; descarga videos de más de 1000 plataformas directamente a tu computadora con organización automática.
+**AnyVideoPro** es un descargador multimedia universal potente, rápido e intuitivo. Diseñado para descargar videos y audios de más de 1000 plataformas (YouTube, TikTok, Instagram, etc.) con organización automática.
 
 ## ✨ Características Principales
-* **🌐 Soporte Universal:** Descarga de YouTube, TikTok, Instagram, Twitter, Facebook, Twitch y +1000 sitios más.
-* **📂 Organización Inteligente:** Crea automáticamente subcarpetas basadas en el nombre del Canal o de la Lista de Reproducción. ¡Mantén tu disco duro en orden!
-* **⚡ Multihilo (Threading):** La interfaz nunca se congela, permitiéndote seguir usando el programa mientras se procesan las descargas.
-* **🎵 Calidad Premium:** Obtén la mejor calidad de video (MP4) o extrae el audio con máxima fidelidad (MP3).
-* **🌙 Interfaz Moderna:** Diseño oscuro (Dark Mode) profesional y minimalista.
-* ## 📂 ¿Dónde se guardan mis descargas?
+* **🌐 Soporte Universal:** Compatible con YouTube, Instagram, Twitter, Twitch y más.
+* **📂 Organización Inteligente:** Crea carpetas automáticamente por **Nombre del Canal** o **Lista de Reproducción**.
+* **🎵 Calidad Premium:** Descarga en el mejor formato disponible (MP4 para video o MP3 para audio).
+* **⚡ Interfaz Moderna:** Tema oscuro (Dark Mode) minimalista y fácil de usar.
+* **📂 Acceso Directo:** El programa abre la carpeta de descargas automáticamente al finalizar.
 
-Para que sea fácil de encontrar, **AnyVideoPro** utiliza la carpeta estándar de Windows. Tus archivos aparecerán automáticamente en:
+## 📂 ¿Dónde se guardan mis descargas?
+Para tu comodidad, los archivos se guardan en la carpeta oficial de tu sistema:
+📍 `C:\Usuarios\[TuUsuario]\Downloads\AnyVideoPro_Files`
 
-📍 `C:\Usuarios\[TuUsuario]\Descargas\AnyVideoPro_Files`
-
-### 🗂️ Organización Inteligente
-El programa mantiene tu carpeta limpia creando subcarpetas automáticamente:
-* **Videos sueltos:** Se guardan en una carpeta con el nombre del **Canal/Autor** (ej. `.../Downloads/AnyVideoPro_Files/YouTubeChannel/video.mp4`).
-* **Listas de reproducción:** Se guardan en una carpeta con el nombre de la **Playlist**.
-
-> **Tip:** Al finalizar cada descarga, AnyVideoPro abrirá automáticamente esta carpeta por ti para que no tengas que buscarla manualmente.
-
-## 🛠️ Requisitos
-Para ejecutar este proyecto necesitas tener instalado Python y la librería `yt-dlp`.
+## 🛠️ Requisitos e Instalación
+Si quieres ejecutar el código fuente (`AnyVidePro.py`), necesitas Python y la librería `yt-dlp`:
 
 1. **Instalar la librería:**
    ```bash
-   python -m pip install yt-dlp
+   pip install yt-dlp
